@@ -30,10 +30,10 @@ cmake ..
 make
 ```
 
-3. Execute the following command to run the experiment over the Yeast dataset (the necessary pre-computed data produced by the offline process is already stored in the data directory).
+3. Execute the following command to run the experiment over the Yeast dataset (or the Syn-WS dataset) (the necessary pre-computed data produced by the offline process is already stored in the data directory).
 
 ```
-./gnnae yeast
+./gnnae yeast (or ./gnnae ws)
 ```
 
 ## Key Parameters
