@@ -35,11 +35,6 @@ make
 ```
 ./gnnae yeast
 ```
-Execute the following command to run the experiment over the Syn-WS dataset (the necessary pre-computed data produced by the offline process is already stored in the data directory).
-
-```
-./gnnae ws
-```
 
 ## Key Parameters
 The key parameters of offline process are in main.py
