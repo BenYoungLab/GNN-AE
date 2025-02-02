@@ -35,6 +35,11 @@ make
 ```
 ./gnnae yeast
 ```
+Execute the following command to run the experiment over the Syn-WS dataset (the necessary pre-computed data produced by the offline process is already stored in the data directory).
+
+```
+./gnnae ws
+```
 
 ## Key Parameters
 The key parameters of offline process are in main.py
@@ -43,7 +48,7 @@ The key parameters of offline process are in main.py
 | ----- | --------- |
 | gnn_model_name | optional GNN models, including 'GIN', and 'GAT' |
 | emb_dimension | the dimension of the anchor graph embedding |
-| emb_precision | precision for each dimension in anchor embedding, default 100 |
+| emb_precision | precision for each dimension in anchor graph embedding, default 100 |
 | dd_path_modes | anchor path mode, '2' indicates hybrid positive \& negative 1-hop anchor paths, and '3' indicates dual 1-hop anchor path |
 
 The key parameters of online process are in main.cpp
