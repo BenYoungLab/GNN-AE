@@ -42,7 +42,7 @@ The key parameters of offline process are in main.py
 | name | description | 
 | ----- | --------- |
 | gnn_model_name | optional GNN models, including 'GIN', and 'GAT' |
-| emb_dimension | the dimension of the anchor embedding via graph |
+| emb_dimension | the dimension of the anchor graph embedding |
 | emb_precision | precision for each dimension in anchor embedding, default 100 |
 | dd_path_modes | anchor path mode, '2' indicates hybrid positive \& negative 1-hop anchor paths, and '3' indicates dual 1-hop anchor path |
 
