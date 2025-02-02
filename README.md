@@ -14,7 +14,7 @@ python main.py
 ```
 
 ## Running Online Process
-1. Download the online.tar.gz, execute the following commands.
+1. Download the online.tar.gz, and execute the following commands.
 
 ```
 tar -xzvf online.tar.gz
@@ -30,10 +30,14 @@ cmake ..
 make
 ```
 
-3. Execute the following command to run the experiment over the Yeast dataset (the necessary pre-computed data produced by the offline process is already stored in the data directory).
+3. Execute the following command to run the experiment over the Yeast dataset (or the Syn-WS dataset) (the necessary pre-computed data produced by the offline process is already stored in the data directory).
 
 ```
 ./gnnae yeast 
+```
+or
+```
+./gnnae ws 
 ```
 
 ## Key Parameters
