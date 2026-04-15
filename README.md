@@ -1,4 +1,4 @@
-# GNN-based Anchor Embedding (GNN-AE) for Efficient Subgraph Retrieval
+# GNN-AE
 
 The GNN-AE approach consists of both offline and online phases (i.e., /offline and /online).  GNN-AE is a graph neural network (GNN)-based anchor embedding approach, which can return all exact matching locations for subgraph retrieval.
 
